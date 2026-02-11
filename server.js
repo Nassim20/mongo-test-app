@@ -4,7 +4,6 @@ const { MongoClient } = require("mongodb");
 const app = express();
 const port = 3000;
 
-const MONGODB_URI='mongodb://admin:r}Jz>n<H1'5M894A£-U:h10U2kojPg@91.99.132.212:27017';
 const uri = process.env.MONGODB_URI;
 
 app.get("/", async (req, res) => {
